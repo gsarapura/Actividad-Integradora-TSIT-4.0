@@ -6,7 +6,8 @@ Modulo: Programación Inicial - COHORTE 2022
 
 - Sarapura, Gustavo
 (agreguen sus nombres)
--Carolina Riddick 
+
+- Carolina Riddick 
 
 
 
