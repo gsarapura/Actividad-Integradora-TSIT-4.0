@@ -6,7 +6,7 @@ Modulo: Programación Inicial - COHORTE 2022
 
 - Sarapura, Gustavo
 - Balduzzi, Lucas
-- Carolina Riddick
+- Carolina Riddick 
 - Oliver, Juan Guillermo
 (agreguen sus nombres)
 
