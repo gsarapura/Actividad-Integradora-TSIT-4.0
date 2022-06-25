@@ -41,6 +41,14 @@ def promedio(lista):
     promedio = acumulador // len(lista)
     return promedio
 
+print("Primer Programa de Trabajo en Equipo")
+print("Materia = Programación Inicial\n")
+menu_selection = input("Seleccione la Operación que desea realizar: ")
+print("1- Suma de total de la lista")
+print("2- Promedio de lista")
+print("3- Mínimo Valor en la lista")
+print("4- Máximo valor en la lista")
+
 min_num_list(list_num)
 largest_num_list(list_num)
 print(min_num_list(list_num))
