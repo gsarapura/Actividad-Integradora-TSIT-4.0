@@ -7,7 +7,8 @@ Modulo: Programación Inicial - COHORTE 2022
 - Sarapura, Gustavo
 - Balduzzi, Lucas
 - Quintana, Hernán Darío
-(agreguen sus nombres)
+- Oliver, Juan Guillermo
+- Riddick, Carolina
 
 
 ## Consignas:
