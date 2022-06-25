@@ -1,3 +1,15 @@
+
+def min_num_list(my_list):
+    """Entra una lista, 
+    Retorna:valor mínimo de la lista
+    """
+
+    min_number = my_list[0]
+    for i in my_list:
+        if i < min_number:
+            min_number = i
+    return(min_number)
+
 #Inicio prueba, limpiar commits "TAREA UNO_LIStA"
 #Cambiar, valor a "LARGEST_NUMBER" segun branch_input
 #num1 = int(input("Ingrese primer digito: "))
@@ -11,3 +23,4 @@ for i in my_list[1:]:
     if i > largest_number:
         largest_number = i
 print(largest_number)
+
