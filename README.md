@@ -4,6 +4,11 @@ Modulo: Programación Inicial - COHORTE 2022
 
 ## Integrantes
 
+- Sarapura, Gustavo
+- Balduzzi, Lucas
+- Quintana, Hernán Darío
+(agreguen sus nombres)
+
 
 ## Consignas:
 Codificar en Python un programa que contenga las siguientes condiciones:
