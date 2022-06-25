@@ -9,6 +9,9 @@ for w in  range(5): #el range le dira al for cuantas veces ejecutar el código s
     list_num.append(w)
     
 print(list_num)
+
+
+
    
 def min_num_list(my_list):
     """Entra una lista, 
@@ -31,7 +34,25 @@ def largest_num_list(my_list):
             largest_number = i
     return(largest_number)
 
-min_num_list(list_num)
-largest_num_list(list_num)
-print(min_num_list(list_num))
-print(largest_num_list(list_num))
+
+
+#Éste es el código del menu. Utiliza una cadena de elif para ejecutar el código de la opcion elegida
+
+
+option = int(input('Elija el número de las Siguentes opciones: 1-sumar, 2-mínimo, 3-máximo, 4-promedio '))
+
+
+if option == 1:    #Suma
+    #ejecuto la funcion suma ásandole de parámetro la lista de números
+    print('Aquí va el ejecutable de la Suma')
+elif option == 2:  #Mínimo
+    print(min_num_list(list_num))
+elif option == 3:  #Máximo
+    print(largest_num_list(list_num))
+
+elif option == 4:  #Promedio
+    #ejecuto la funcion promedio ásandole de parámetro la lista de números
+    print('Aquí va el ejecutable del Promedio')
+else: #Máximo
+    print('Has elegido incorrectamente')
+
