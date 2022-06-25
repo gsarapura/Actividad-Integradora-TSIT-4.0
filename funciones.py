@@ -1,4 +1,3 @@
-
 list_num = []
 # descomentar está linea si se quiere decidir la cantidad de números a ingresar
 #cant = int(input('¿Cuántos números quiere ingresar? '))
@@ -56,3 +55,26 @@ elif option == 4:  #Promedio
 else: #Máximo
     print('Has elegido incorrectamente')
 
+# Promedio
+def promedio(lista):
+    """
+    Recibe una lista como argumento y retorna el promedio de sus elementos.
+    """
+    acumulador = 0
+    for i in lista:
+        acumulador += i
+    promedio = acumulador // len(lista)
+    return promedio
+
+print("Primer Programa de Trabajo en Equipo")
+print("Materia = Programación Inicial\n")
+menu_selection = input("Seleccione la Operación que desea realizar: ")
+print("1- Suma de total de la lista")
+print("2- Promedio de lista")
+print("3- Mínimo Valor en la lista")
+print("4- Máximo valor en la lista")
+
+min_num_list(list_num)
+largest_num_list(list_num)
+print(min_num_list(list_num))
+print(largest_num_list(list_num))
