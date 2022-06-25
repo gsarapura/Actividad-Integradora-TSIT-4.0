@@ -1,4 +1,3 @@
-
 list_num = []
 # descomentar está linea si se quiere decidir la cantidad de números a ingresar
 #cant = int(input('¿Cuántos números quiere ingresar? '))
@@ -30,6 +29,17 @@ def largest_num_list(my_list):
         if i > largest_number:
             largest_number = i
     return(largest_number)
+
+# Promedio
+def promedio(lista):
+    """
+    Recibe una lista como argumento y retorna el promedio de sus elementos.
+    """
+    acumulador = 0
+    for i in lista:
+        acumulador += i
+    promedio = acumulador // len(lista)
+    return promedio
 
 min_num_list(list_num)
 largest_num_list(list_num)
