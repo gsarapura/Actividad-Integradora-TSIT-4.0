@@ -11,14 +11,14 @@ for w in  range(5): #el range le dira al for cuantas veces ejecutar el código s
 print('Los números ingresados son los siguientes: ',list_num)
 
 # Suma
-def sumar(list_num):
+def sumar(my_list):
     """
     Retorna: Suma total de los parámetros de la lista
     """
     suma = 0
-    for i in list_num:
+    for i in my_list:
         suma += i
-        return suma
+    return suma
 
 # Mínimo
 def min_num_list(my_list):
@@ -59,8 +59,8 @@ option = int(input('Elija el número de las Siguentes opciones: \n '
 ------------------------------ MENU ------------------------------
     1. Función Suma
     2. Función Promedio
-    3. Función Máximo
-    4. Función Mínimo
+    3. Función Mínimo
+    4. Función Máximo
 -------------------------------------------------------------------
     """))
 
@@ -72,11 +72,11 @@ elif option == 2:  #Promedio
     #ejecuto la funcion promedio ásandole de parámetro la lista de números
     print('El Promedio de los números que ingresaste es: ', promedio(list_num))
 
-elif option == 3:  #Máximo
-    print('El Máximo valor de la lista es: ', largest_num_list(list_num))
-    
-elif option == 4:  #Mínimo
+elif option == 3:  #Mínimo
     print('El Mínimo valor de la lista es: ',min_num_list(list_num))
+
+elif option == 4:  #Máximo
+    print('El Máximo valor de la lista es: ', largest_num_list(list_num))
 
 else:
     print('Has elegido incorrectamente. Por favor vuelva a intentarlo. ')
