@@ -3,3 +3,4 @@ def sumar(list_num):
     for i in list_num:
         suma += i
         return suma
+#aca hago el edit mío para el pull
