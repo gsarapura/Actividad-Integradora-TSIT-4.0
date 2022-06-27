@@ -1,39 +1,28 @@
-
-def sumar(list_num):
-    suma = 0
-    for i in list_num:
-        suma += i
-        return suma
-#aca hago el edit mío para el pull
-
-
-
-
 list_num = []
 # descomentar está linea si se quiere decidir la cantidad de números a ingresar
 #cant = int(input('¿Cuántos números quiere ingresar? '))
 #en caso de quere decidir la cantidad de número a agregar en el array, cambiar el parámetro del range por "cant".
-
 print('Bienvenido a la Supercalculadora, por favor ingrese 5 números enteros ')
 
+# Lista
 for w in  range(5): #el range le dira al for cuantas veces ejecutar el código según el valor que se le indique
     w = int(input('Ingrese un número: '))
     list_num.append(w)
-    
 print('Los números ingresados son los siguientes: ',list_num)
 
-
-#código función suma
-
-
-
-
-
-
-
-def min_num_list(my_list):
+# Suma
+def sumar(list_num):
     """
-    Entra una lista, 
+    Retorna: Suma total de los parámetros de la lista
+    """
+    suma = 0
+    for i in list_num:
+        suma += i
+        return suma
+
+# Mínimo
+def min_num_list(my_list):
+    """ 
     Retorna: valor mínimo de la lista
     """
     min_number = my_list[0]
@@ -42,10 +31,9 @@ def min_num_list(my_list):
             min_number = i
     return(min_number)
 
-# Maximo pasado a funcion
+# Máximo
 def largest_num_list(my_list):
-    """
-    Entra una lista, 
+    """ 
     Retorna: valor máximo de la lista
     """
     largest_number = my_list[0] #Aquí dejar el commit, zero tambien es válido, pero no esta en la lista
@@ -54,11 +42,10 @@ def largest_num_list(my_list):
             largest_number = i
     return(largest_number)
 
-
 # Promedio
 def promedio(lista):
     """
-    Recibe una lista como argumento y retorna el promedio de todos sus elementos.
+    Retorna: el promedio de todos los parámetros en la lista.
     """
     acumulador = 0
     for i in lista:
@@ -67,7 +54,6 @@ def promedio(lista):
     return promedio
 
 #Éste es el código del menu. Utiliza una cadena de elif para ejecutar el código de la opcion elegida
-
 option = int(input('Elija el número de las Siguentes opciones: \n '
  """
 ------------------------------ MENU ------------------------------
@@ -78,10 +64,9 @@ option = int(input('Elija el número de las Siguentes opciones: \n '
 -------------------------------------------------------------------
     """))
 
-
 if option == 1:    #Suma
     #ejecuto la funcion suma ásandole de parámetro la lista de números
-    print('La Suma de todos los números que ingresaste es: ' ,'Aquí va el ejecutable de la Suma')
+    print('La Suma de todos los números que ingresaste es: ' , sumar(list_num))
 
 elif option == 2:  #Promedio
     #ejecuto la funcion promedio ásandole de parámetro la lista de números
