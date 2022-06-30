@@ -5,9 +5,10 @@ Modulo: Programación Inicial - COHORTE 2022
 ## Integrantes
 
 - Sarapura, Gustavo
-- Carolina Riddick 
+- Balduzzi, Lucas
+- Quintana, Hernán Darío
 - Oliver, Juan Guillermo
-(agreguen sus nombres)
+- Riddick, Carolina
 
 
 ## Consignas:
